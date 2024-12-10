@@ -1,35 +1,37 @@
 body{
-    background-color: #412412;
+    background-color: lightgray;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
 .container{
     width: 1000px;
-    background-color: #421214;
+    background-color: rgb(136, 233, 233);
     box-shadow: 0 4px 10px #fff;
 }
 h1{
     text-align: center;
-    color: bisque;
+    color: rgb(225, 131, 16);
 }
 .combine-div{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    /* margin-right: 15vw; */
 }
 .buttons-div{
-    /* background-color: aliceblue; */
     width: 30%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding-left: 100px;
 }
 .buttons-div button{
+    width: 70%;
+    font-weight: 600;
+    border-radius: 5px;
     padding: 7px 10px;
     background-color: #fff;
-    margin-bottom: 7px;
+    margin-bottom: 15px;
+    margin-left: 200px;
 }
 .buttons-div button:hover{
     background-color: #ffffffb6;
@@ -40,7 +42,7 @@ h1{
     -o-transition: background 1s;
 }
 .display-div{
-    background-color:#ffffffb6 ;
+    /* background-color: rgb(171, 168, 168); */
     width: 40%;
     height: 40vh;
     text-align: center;
@@ -56,16 +58,13 @@ h1{
 .hr-row{
     width: 100%;
     height: 0.1rem;
-    background-color: #421214;
+    background-color: #100606;
 }
 .user{
     /* padding: 7px 10px; */
-    background-color: #806f62;
+    background-color: rgb(84, 200, 128);
     margin-bottom: 7px;
     margin-left: 10px;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-around; */
 }
 .span{
     display: grid;
@@ -74,4 +73,34 @@ h1{
 }
 .total{
     text-align: right;
+    /* gap: 20px; */
 }
+.chat-bot {
+    font-weight: 600;
+    display: flex;
+    /* margin-top: 20vw; */
+    background-color: rgb(86, 180, 227);
+    border: 2px solid #000;     
+    padding: 10px;      
+    color: rgb(8, 2, 2);
+    /* margin-bottom: 18vw; */
+}
+.get-res {
+    width: 150px;
+    height: 30px;
+    color: rgb(8, 6, 6);
+    background-color: #7a78f7;
+    font-weight: 600;
+}
+.user-ask {
+    border: 1px solid #060505;
+    padding: 10px;
+    width: 300px;
+    height: 350px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    background-color: powderblue;
+}
+
+    
